@@ -18,7 +18,7 @@ Omni uses a few environment variables
   * MONGO_DB: Mongo Database to use
   * MONGO_COL: Mongo Collection to store docker stats documents into
     * Default: `ts_docker_stats`
-  * DOCKER_SOCK: Docker socket path
+  * DOCKER_SOCKET: Docker socket path
     * Default: `/var/run/docker.sock`
   * INTERVAL: Time in milliseconds at which Omni will read and save docker stats
     * Default: `1000`
